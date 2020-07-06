@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(221, 221, 221);
+}
+
+.form {
+  max-width: 750px;
+  min-height: 300px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 4px 62px 5px rgba(168, 168, 168, 0.79);
+  -moz-box-shadow: 2px 4px 62px 5px rgba(168, 168, 168, 0.79);
+  box-shadow: 2px 4px 62px 5px rgba(168, 168, 168, 0.79);
+
+  form {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin: 4em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    * {
+      background-color: white;
+    }
+    label {
+      margin: 2em 0;
+    }
+  }
+}
