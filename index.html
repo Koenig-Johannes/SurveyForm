@@ -5,5 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <title id="title"></title>
+    <h1>This is my awesome Form</h1>
+    <p id="description">
+      This was a Project, I did for a Free Code Camp Project
+    </p>
+    <form id="survey-form" action="">
+      <label id="name-label" for="name">
+        <input id="name" type="text" placeholder="Hans Werner" />
+      </label>
+      <label id="email-label" for="email">
+        <input id="email" type="email" placeholder="max@mustermann.de" />
+      </label>
+      <label id="number-label" for="number">
+        <input
+          id="number"
+          type="number"
+          name="amount"
+          value="1"
+          min="1"
+          max="10"
+          placeholder="123-45-678"
+        />
+      </label>
+      <select id="dropdown" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <fieldset>
+        <input type="radio" id="mc" name="Zahlmethode" value="Mastercard" />
+        <label for="mc"> Mastercard</label>
+        <input type="radio" id="vi" name="Zahlmethode" value="Visa" />
+        <label for="vi"> Visa</label>
+        <input
+          type="radio"
+          id="ae"
+          name="Zahlmethode"
+          value="AmericanExpress"
+        />
+        <label for="ae"> American Express</label>
+      </fieldset>
+      <textarea></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
 </html>
